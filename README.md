@@ -1,10 +1,8 @@
-# Recipe Search Application
-
-## Recipe searching application created using React and API from [EDAMAM](https://developer.edamam.com/)  
+# Recipe searching application created using React and API from [EDAMAM](https://developer.edamam.com/)  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
 
-## Project hosted on [heroku](https://react-recipe-search-app.herokuapp.com/)
+### Project hosted on [heroku](https://react-recipe-search-app.herokuapp.com/)
 
 ## Available Scripts
 
