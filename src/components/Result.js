@@ -61,7 +61,7 @@ export default ({ pagination, setPagination, recipes, loading }) => {
                                 </div>
                                 <div className="card-content">
                                     <span className="card-title activator grey-text text-darken-4">{recipe.label}<i className="material-icons right">more_vert</i></span>
-                                    <a href={recipe.url} target="_blank" rel="noopener noreferrer">Full recipe</a>
+                                    <a href={recipe.shareAs} target="_blank" rel="noopener noreferrer">Nutrition details, instructions and more...</a>
                                 </div>
                                 <div className="card-reveal">
                                     <span className="card-title grey-text text-darken-4">{recipe.label}<i className="material-icons right">close</i></span>
