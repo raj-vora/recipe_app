@@ -5,7 +5,6 @@ import Result from './Result';
 function App() {
   const APP_ID= '423fbe29', APP_KEY='d0ec1bf446ec934e32bcb880f78bf980';
   const [searchTerm, setSearchTerm] = useState('');
-  const [meal, setMeal] = useState('');
   const [cuisines, setCuisines] = useState([]);
   const [diet, setDiet] = useState('');
   const [pagination, setPagination] = useState(0);
@@ -41,7 +40,6 @@ function App() {
     <div className="App">
       <Search 
         setSearchTerm={setSearchTerm} 
-        setMeals={setMeal}
         setCuisine={setCuisines}
         setDiets={setDiet}
         />

@@ -17,7 +17,6 @@ export default ({ pagination, setPagination, recipes, loading }) => {
 
     return (
         <div>
-            <div className="container">
             {loading && <Loading />}
                 <div style={{
                     justifyContent: 'center', 
@@ -52,7 +51,7 @@ export default ({ pagination, setPagination, recipes, loading }) => {
                     </ul>
                 </div>
                 
-                <div className="row" style={{ display: "flex", flexWrap: "wrap"}}>
+                <div className="row">
                     {!loading && recipes.map(({ recipe }, index) => (
                         <div className="col s12 m4 l4" key={index}>
                         <div className="card">
@@ -73,7 +72,6 @@ export default ({ pagination, setPagination, recipes, loading }) => {
                         </div>
                     ))}
                 </div>
-            </div>
             
             <div className="row">
             <div className="col s5" />
