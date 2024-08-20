@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KACI,eAAgB,CAChB,gBAAiB,CACjB,iBACJ,CAEA,oBACI,WACJ","file":"main.5f05f5fa.chunk.css","sourcesContent":[".App {\n    padding-top: 1vw;\n    padding-left: 5vw;\n    padding-right: 5vw;\n}\n\n.card .card-content {\n    padding: 1vw;\n}"]}
