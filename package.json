@@ -10,8 +10,8 @@
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
-    "serve": "^11.3.2"
+    "react-scripts": "^5.0.1",
+    "serve": "^14.2.4"
   },
   "scripts": {
     "start": "node server/server.js",
