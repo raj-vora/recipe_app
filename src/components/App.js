@@ -12,9 +12,7 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    var extraString = ''
-    // if(meal)
-    //   extraString += '&mealType='+meal.toLowerCase();
+    var extraString = '';
     if(diet) 
       extraString += '&diet='+diet;
     if(cuisines)

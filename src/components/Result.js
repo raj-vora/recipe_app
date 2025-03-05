@@ -59,7 +59,7 @@ export default ({ pagination, setPagination, recipes, loading }) => {
                                     <img className="activator" src={recipe.image} alt="food" />
                                 </div>
                                 <div className="card-content">
-                                    <span className="card-title activator grey-text text-darken-4">{recipe.label}<i className="material-icons right">more_vert</i></span>
+                                    <span className="card-title activator grey-text text-darken-4">{recipe.label.length > 40 ? `${recipe.label.substring(0, 40)}...` : recipe.label}<i className="material-icons right">more_vert</i></span>
                                     <a href={recipe.shareAs} target="_blank" rel="noopener noreferrer">Nutrition details, instructions and more...</a>
                                 </div>
                                 <div className="card-reveal">

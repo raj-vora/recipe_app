@@ -6,4 +6,12 @@
 
 .card .card-content {
     padding: 1vw;
+    min-height: 10vh;
+    max-height: 20vh;
+}
+
+.logo{
+    height: 20vw;
+    width: 20vw;
+    justify-self: center;
 }
